@@ -1,0 +1,66 @@
+body{
+  font-family: sans-serif;
+  background-color: #161616;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto 0;
+}
+
+.logotipo {
+  width: 25vw;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.category-section {
+  display: flex;
+  gap: 20px;
+}
+
+.category-btn {
+  padding: 5px;
+}
+
+.category-btn:hover {
+  cursor: pointer;
+  background-color: rgba(240, 240, 240, 0.726);
+}
+
+.generate-phrase:hover {
+  cursor: pointer;
+  background-color: rgba(70, 70, 243, 0.404);
+}
+
+.generate-phrase {
+  margin-top: 25px;
+  padding: 8px 10px;
+  background-color: rgba(70, 70, 243, 0.726);
+  color: #fff;
+  border: none;
+}
+
+.message {
+  max-width:30%;
+  background-color: #fafafa;
+  border-radius:6px;
+  font-style: italic;
+  font-size:18px;
+  line-height: 150%;
+  margin:50px auto;
+  padding:14px 22px;
+  height:10vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #dd7b22;
+}
